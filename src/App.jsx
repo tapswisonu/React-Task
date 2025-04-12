@@ -19,9 +19,8 @@ const App = () => {
       return;
     }
 
-    const API_KEY = import.meta.env.VITE_API_KEY;
-    console.log("{API_KEY}", API_KEY);
-
+    // const API_KEY = import.meta.env.VITE_API_KEY;
+  const API_KEY="49708221-4dd73b09ff9a84bccdc0b0606&q"
 
     try {
       setLoading(true);
